@@ -1,5 +1,4 @@
 var repl = require('repl');
-var colors = require('colors');
 var coptermanager = require('coptermanager-simple');
 
 var client = new coptermanager.Client({
