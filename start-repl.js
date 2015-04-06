@@ -4,7 +4,7 @@ var coptermanager = require('coptermanager-simple');
 
 var client = new coptermanager.Client({
 //    serialport: '/dev/tty.usbmodem1411' // unix
-    serialport: 'COM8' // windows
+    serialport: 'COM4' // windows
 });
 var server = new coptermanager.Server(client);
 

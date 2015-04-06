@@ -240,7 +240,7 @@ void A7105_ReadData(u8 *dpbuffer, u8 len)
     return;
 }
 
-void A7105_WriteID(unsigned long id)
+void A7105_WriteID(u32 id)
 {
     CS_LO();
     SPI.transfer(0x06);

@@ -10,7 +10,7 @@
 uint8_t startval, command;
   
 void setup() {
-  verbose = false;
+  verbose = true;
   pinMode(RED_LED, OUTPUT);
   pinMode(BLUE_LED, OUTPUT);
   
