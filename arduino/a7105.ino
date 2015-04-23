@@ -26,9 +26,11 @@ int no_allowed_channels = 12;
 void A7105_Setup() {
   // initialise the cs lock pin
   pinMode(CS_PIN, OUTPUT);
+  digitalWrite(CS_PIN, HIGH);
   
   // initialise SPI, set mode and byte order
   SPI.begin();
+  SPI.setClockDivider(SPI_CLOCK_DIV16); 
   SPI.setDataMode(SPI_MODE0);
   SPI.setBitOrder(MSBFIRST);
   

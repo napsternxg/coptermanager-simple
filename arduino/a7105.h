@@ -4,7 +4,7 @@
 // constants for arduino pins
 #define RED_LED 8
 #define BLUE_LED 9
-#define CS_PIN 10 
+#define CS_PIN 7 
 #define RED_ON() digitalWrite(RED_LED, HIGH);
 #define RED_OFF() digitalWrite(RED_LED, LOW);
 #define BLUE_ON() digitalWrite(BLUE_LED, HIGH);
